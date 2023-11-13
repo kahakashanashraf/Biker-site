@@ -380,11 +380,13 @@ hr {
 /* 540 screen size */
 
 @media screen and (max-width: 540px) {
-    .nav {
+    .nav,
+    .menu-bar {
         flex-direction: column;
     }
     .menu-bar,
     ul {
+        flex-direction: column;
         text-align: center;
         padding: 1px;
     }
@@ -431,6 +433,9 @@ hr {
         padding: 30px 20px;
     }
 }
+
+
+/* 1024 screen size */
 
 
 /* 1024 screen size */
