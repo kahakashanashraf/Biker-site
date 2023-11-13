@@ -379,7 +379,7 @@ hr {
 
 /* 540 screen size */
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 576px) {
     .nav,
     .menu-bar {
         flex-direction: column;
