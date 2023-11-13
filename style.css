@@ -3,6 +3,7 @@
     font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Bebas Neue', sans-serif;
+    box-sizing: border-box;
 }
 
 section {
@@ -287,6 +288,7 @@ hr {
 .faq-flex img {
     flex-basis: 30%;
     margin-right: 100px;
+    padding-right: 20px;
 }
 
 .faq-content {
@@ -372,9 +374,12 @@ hr {
 }
 
 
+/* 1280 screen size  original*/
+
+
 /* 540 screen size */
 
-@media screen and (min-width: 540px) {
+@media screen and (max-width: 540px) {
     .nav {
         flex-direction: column;
     }
@@ -426,3 +431,6 @@ hr {
         padding: 30px 20px;
     }
 }
+
+
+/* 1024 screen size */
