@@ -392,8 +392,9 @@ hr {
     }
     .banner {
         flex-direction: column;
-        padding-left: 20px;
+        padding-left: 10px;
         padding-right: 20px;
+        margin: 20px;
     }
     .banner-content {
         flex-basis: 100%;
@@ -401,6 +402,7 @@ hr {
     }
     .banner-content h1 {
         font-size: 50px;
+        padding-left: 5px;
     }
     .banner-content img {
         flex-basis: 100%;
@@ -426,16 +428,75 @@ hr {
         padding-left: 20px;
         margin-right: 20px;
     }
-    .end {
+    .faq-flex img {
+        padding-left: 50px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .info1 {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 30px 20px;
     }
 }
 
 
-/* 1024 screen size */
+/* 576-990 screen size */
+
+@media screen and (min-width: 576px) and ( max-width: 990px) {
+    .banner {
+        padding-left: 20px;
+    }
+    .banner-content {
+        flex-basis: 50%;
+    }
+    .banner-content img {
+        flex-basis: 30%;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 1px;
+    }
+    .banner-content p {
+        font-size: 10px;
+        padding-bottom: 15px;
+    }
+    .img-grid {
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .img-grid img {
+        max-width: 250px;
+        width: 100%;
+    }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+        margin-top: 10px;
+        gap: 10px;
+    }
+    .item1 {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .faq-flex {
+        flex-direction: column;
+        padding-left: 20px;
+        margin-right: 20px;
+    }
+    .faq-flex img {
+        padding-left: 50px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .medium img {
+        width: 100px;
+    }
+    .end {
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
+    }
+}
 
 
-/* 1024 screen size */
+/* 576-990 screen size */
